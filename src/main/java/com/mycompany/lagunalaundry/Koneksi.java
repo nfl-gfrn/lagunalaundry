@@ -15,7 +15,7 @@ import java.sql.SQLException;
 public class Koneksi {
         private static Connection conn;
         private static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-        private static final String DB_NAME = "db_desktop";
+        private static final String DB_NAME = "";
         private static final String DB_URL = "jdbc:mysql://localhost:3306/" + DB_NAME;
         private static final String DB_UNAME = "root";
         private static final String DB_PASS = "";
